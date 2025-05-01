@@ -56,4 +56,5 @@ for index, rows in df.iterrows():
             st.header(title)
             st.write(desc)
             st.image(os.path.join(path_image, img))
+            st.info(url)
 
