@@ -31,11 +31,10 @@ _,col,_ = st.columns([1,3,1])
 
 st.markdown("---")
 st.header("🛠️ Below are some of the projects I built!")
-
+st.markdown("---")
 # creating the projects section
 df = pd.read_csv(os.path.join(path_data,"data.csv"))
 df.reset_index(inplace = True)
-l = len(df)//2+1 # a variable which is used to divide the data into two parts
 
 
 col3, _,col4 = st.columns([3,1,3])
